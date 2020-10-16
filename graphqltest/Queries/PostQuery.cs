@@ -8,7 +8,6 @@ using HotChocolate.Types;
 
 namespace graphqltest.Queries
 {
-    [Authorize]
     [ExtendObjectType(Name = "Query")]
     public class PostQuery
     {

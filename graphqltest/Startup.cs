@@ -104,7 +104,7 @@ namespace graphqltest
                 .UseAuthentication()
                 .UseAuthorization()
                 .UseWebSockets()
-                .UseGraphQL("/api");
+                .UseGraphQL("/api2");
         }
 
     }

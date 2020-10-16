@@ -11,6 +11,7 @@ namespace graphqltest.Queries
     [ExtendObjectType(Name = "Query")]
     public class PostQuery
     {
+        [Authorize]
         public async Task<List<Post>> GetPosts([Service] IPostProvider postProvider)
         {
             var result = await postProvider.GetPosts();

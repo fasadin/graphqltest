@@ -40,6 +40,10 @@ namespace graphqltest
             services.AddJwt(settings.AuthOptions);
             
             services.AddCors();
+            
+            services.AddDbContext<graphqltestContext>(options =>
+                options.UseSqlite("Data Source=Database.db"));
+
 
             services.AddHttpClient<ILanguageProvider, LanguageProvider>(client =>
             {

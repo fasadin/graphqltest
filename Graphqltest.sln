@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "graphqltest", "graphqltest\graphqltest.csproj", "{6AEB2D7D-C673-4E55-BD7F-A330ED7DCB42}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6AEB2D7D-C673-4E55-BD7F-A330ED7DCB42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AEB2D7D-C673-4E55-BD7F-A330ED7DCB42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AEB2D7D-C673-4E55-BD7F-A330ED7DCB42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AEB2D7D-C673-4E55-BD7F-A330ED7DCB42}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

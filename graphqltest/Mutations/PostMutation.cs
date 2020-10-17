@@ -9,10 +9,11 @@ using HotChocolate.Types;
 
 namespace graphqltest.Mutations
 {
-    [Authorize]
+    
     [ExtendObjectType(Name = "Mutation")]
     public class PostMutation
     {
+        [Authorize]
         public async Task<PostResponse> CreateNewPost(
             PostInput postInput,
             [Service] IPostProvider postProvider)
